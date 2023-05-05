@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Restaurant from "./components/basics/Restaurant"; 
 
 function App() {
   return (
-    <div>
-      <h1>Starting</h1>
-    </div>
+   <>
+      <Restaurant />
+   </>
   )
 }
 
